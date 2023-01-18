@@ -1,9 +1,9 @@
 .products-nav .grid-container {
-    margin-top           : 60px;
+    margin-top           : 50px;
     display              : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows   : 1fr 1fr;
-    gap                  : 10px;
+    gap                  : 12px;
     grid-template-areas  :
         "iphone macbook macbook ipad"
         "iphone smart-home mac-mini accessories";
@@ -36,34 +36,34 @@
 .product-nav {
     display         : flex;
     flex-direction  : column;
-    background-color: #f6f6f6;
+    background-color: #72c67e;
 }
 
 .product-nav img {
-    width     : 240px;
+    width     : 220px;
     object-fit: cover;
 }
 
 .product-nav .product-btn {
-    padding: 20px;
+    padding: 22px;
 }
 
 .macbook img {
-    width: 400px;
+    width: 350px;
 }
 
 .product-nav .product-name {
-    font-size    : 24px;
+    font-size    : 22px;
     font-weight  : bold;
-    margin-bottom: 10px;
-    padding      : 20px;
+    margin-bottom: 12px;
+    padding      : 25px;
 }
 
 
 .product-nav .product-btn {
-    font-size      : 16px;
-    line-height    : 24px;
-    color          : #006DFE;
+    font-size      : 14px;
+    line-height    : 22px;
+    color          : #9400fe;
     text-decoration: none;
     display        : inline-block;
     background     : url(../img/svg/arrow.svg) no-repeat 40% center;
@@ -78,7 +78,7 @@
 .grid-container .iphone {
     background-image   : url('../img/products-nav/iphone.jpg');
     background-position: center 190px;
-    background-size    : 225px;
+    background-size    : 220px;
     background-repeat  : no-repeat;
 }
 
